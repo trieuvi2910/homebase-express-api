@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+
+#env
+.env
+
+# Logs
+logs
+app/chat/logs
+*.log
+npm-debug.log*
+
+# Project file
+*.sublime-project
+*.sublime-workspace
+.idea
