@@ -8,26 +8,30 @@ Follow these steps to set up and run the API locally:
 
 1. **Clone the repository:**
 
-    git clone https://github.com/trieuvi2910/homebase-express-api.git
+    <b>git clone https://github.com/trieuvi2910/homebase-express-api.git</b>
 
-    cd homebase-express-api
+    <b>cd homebase-express-api</b>
 
     1.  Install dependencies:
-        npm install
+        <b>npm install</b>
 
     2.  Set up the database:
         The SQLite database is used by default. It will be created automatically when you run the application.
 
     3.  Run the API:
-        npm start
+        <b>npm start</b>
     
 2. **API Endpoints:**
 
-    POST /api/user/create: Create a new user.
-    GET /api/user/all: Retrieve a list of all users.
-    GET /api/user/find/:id: Retrieve a specific user by ID.
-    PUT /api/user/update/:id: Update a specific user by ID.
-    DELETE /api/user/delete/:id: Delete a specific user by ID.
+    - POST /api/user/create: Create a new user.
+
+    - GET /api/user/all: Retrieve a list of all users.
+
+    - GET /api/user/find/:id: Retrieve a specific user by ID.
+
+    - PUT /api/user/update/:id: Update a specific user by ID.
+
+    - DELETE /api/user/delete/:id: Delete a specific user by ID.
 
 3. **Usage:**
 
